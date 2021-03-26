@@ -1,0 +1,42 @@
+.bd
+{
+    background-color:rgba(80, 52, 80, 0.781);
+}
+.img
+{
+    width: 200px;
+    object-fit:cover;
+    border-radius:75%;
+}
+.biodata
+{
+    align-content: center;
+    text-align: center;
+}
+.table
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.Akhir
+{
+    border: 2px solid black;
+}
+.rw
+{
+    list-style-type: decimal;
+}
+.po
+{
+    list-style: circle;
+}
+@media(min-width : 576px) and (max-width : 275.98px)
+{
+    .biodata
+    {
+        align-content: center;
+        text-align: center;
+        color: lightyellow;
+    }
+}
